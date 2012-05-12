@@ -1,0 +1,13 @@
+eeschema (2011-05-25)-stable  >> Creation date: Fri 11 May 2012 07:58:59 AM PDT
+
+#Cmp ( order = Reference )
+| IC1        ATMEGA32-P  
+| U1         74HC14      
+#End Cmp
+
+#Cmp ( order = Value )
+| 74HC14       U1        
+| ATMEGA32-P   IC1       
+#End Cmp
+
+#End List

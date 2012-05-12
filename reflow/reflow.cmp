@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Fri 11 May 2012 08:19:43 AM PDT
+
+BeginCmp
+TimeStamp = /4FAD253E;
+Reference = IC1;
+ValeurCmp = ATMEGA32-P;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAD2841;
+Reference = U1;
+ValeurCmp = 74HC14;
+IdModule  = DIP-14__300;
+EndCmp
+
+EndListe

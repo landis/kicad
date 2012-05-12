@@ -1,0 +1,365 @@
+EESchema Schematic File Version 2  date Fri 11 May 2012 08:36:55 PM PDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:reflow-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "11 may 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7100 1750 7100 1600
+Wire Wire Line
+	6550 1750 6550 1500
+Wire Wire Line
+	6550 1750 5900 1750
+Wire Wire Line
+	6550 1500 6700 1500
+Connection ~ 5600 2450
+Wire Wire Line
+	5400 2450 5900 2450
+Connection ~ 5900 1750
+Connection ~ 5400 1450
+Wire Wire Line
+	5450 1450 5300 1450
+Wire Wire Line
+	5900 1450 5850 1450
+Wire Wire Line
+	4800 1450 4700 1450
+Wire Wire Line
+	4700 1450 4700 1200
+Wire Wire Line
+	1850 6750 2650 6750
+Wire Wire Line
+	2650 6750 2650 6350
+Wire Wire Line
+	7100 1200 7100 1400
+Wire Wire Line
+	2800 900  2800 750 
+Wire Wire Line
+	2800 4900 2800 5050
+Wire Wire Line
+	2000 6900 2000 7000
+Wire Wire Line
+	2000 6900 1850 6900
+Wire Wire Line
+	7600 2300 7800 2300
+Wire Wire Line
+	3850 4300 4100 4300
+Wire Wire Line
+	3850 4400 4100 4400
+Wire Wire Line
+	7600 1500 7800 1500
+Wire Wire Line
+	2100 7000 1850 7000
+Connection ~ 2000 7000
+Wire Wire Line
+	2900 4900 2900 5050
+Wire Wire Line
+	2800 800  2900 800 
+Wire Wire Line
+	2900 800  2900 900 
+Wire Wire Line
+	2900 6550 2900 6400
+Connection ~ 2800 800 
+Connection ~ 2900 800 
+Wire Wire Line
+	5600 2450 5600 2600
+Wire Wire Line
+	5900 2050 5900 1450
+Wire Wire Line
+	5400 1850 5400 1450
+Connection ~ 5400 1750
+Connection ~ 5400 3100
+Wire Wire Line
+	5400 3200 5400 2800
+Wire Wire Line
+	5900 3400 5900 2800
+Wire Wire Line
+	5600 3950 5600 3800
+Wire Wire Line
+	4700 2550 4700 2800
+Wire Wire Line
+	4700 2800 4800 2800
+Wire Wire Line
+	5900 2800 5850 2800
+Wire Wire Line
+	5450 2800 5300 2800
+Connection ~ 5400 2800
+Connection ~ 5900 3100
+Wire Wire Line
+	5400 3800 5900 3800
+Connection ~ 5600 3800
+Wire Wire Line
+	6700 2300 6550 2300
+Wire Wire Line
+	5900 3100 6550 3100
+Wire Wire Line
+	6550 3100 6550 2300
+$Comp
+L GND #PWR01
+U 1 1 4FAD7E1B
+P 7100 1750
+F 0 "#PWR01" H 7100 1750 30  0001 C CNN
+F 1 "GND" H 7100 1680 30  0001 C CNN
+	1    7100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 4FAD7E0B
+P 7100 1200
+F 0 "#PWR02" H 7100 1290 20  0001 C CNN
+F 1 "+5V" H 7100 1290 30  0000 C CNN
+	1    7100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4FAD7C6A
+P 5050 2800
+F 0 "R2" V 5130 2800 50  0000 C CNN
+F 1 "82K" V 5050 2800 50  0000 C CNN
+	1    5050 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 4FAD7C69
+P 5650 3100
+F 0 "R4" V 5730 3100 50  0000 C CNN
+F 1 "18K" V 5650 3100 50  0000 C CNN
+	1    5650 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 4FAD7C68
+P 5650 2800
+F 0 "D2" H 5650 2900 40  0000 C CNN
+F 1 "DIODE" H 5650 2700 40  0000 C CNN
+	1    5650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 4FAD7C67
+P 4700 2550
+F 0 "#PWR03" H 4700 2640 20  0001 C CNN
+F 1 "+5V" H 4700 2640 30  0000 C CNN
+	1    4700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4FAD7C66
+P 5600 3950
+F 0 "#PWR04" H 5600 3950 30  0001 C CNN
+F 1 "GND" H 5600 3880 30  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 4FAD7C65
+P 5900 3600
+F 0 "C2" H 5950 3700 50  0000 L CNN
+F 1 "1uF" H 5950 3500 50  0000 L CNN
+	1    5900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 4FAD7C64
+P 5400 3500
+F 0 "SW2" H 5550 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 5400 3420 50  0000 C CNN
+	1    5400 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 4FAD7BDE
+P 5400 2150
+F 0 "SW1" H 5550 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 5400 2070 50  0000 C CNN
+	1    5400 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 4FAD7B6A
+P 5900 2250
+F 0 "C1" H 5950 2350 50  0000 L CNN
+F 1 "1uF" H 5950 2150 50  0000 L CNN
+	1    5900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 4FAD7ACB
+P 5600 2600
+F 0 "#PWR05" H 5600 2600 30  0001 C CNN
+F 1 "GND" H 5600 2530 30  0001 C CNN
+	1    5600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 4FAD7AAD
+P 4700 1200
+F 0 "#PWR06" H 4700 1290 20  0001 C CNN
+F 1 "+5V" H 4700 1290 30  0000 C CNN
+	1    4700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 4FAD7A6D
+P 5650 1450
+F 0 "D1" H 5650 1550 40  0000 C CNN
+F 1 "DIODE" H 5650 1350 40  0000 C CNN
+	1    5650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4FAD7A5A
+P 5650 1750
+F 0 "R3" V 5730 1750 50  0000 C CNN
+F 1 "18K" V 5650 1750 50  0000 C CNN
+	1    5650 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4FAD7A4F
+P 5050 1450
+F 0 "R1" V 5130 1450 50  0000 C CNN
+F 1 "82K" V 5050 1450 50  0000 C CNN
+	1    5050 1450
+	0    1    1    0   
+$EndComp
+NoConn ~ 1850 2400
+$Comp
+L +5V #PWR07
+U 1 1 4FAD2D7D
+P 2800 750
+F 0 "#PWR07" H 2800 840 20  0001 C CNN
+F 1 "+5V" H 2800 840 30  0000 C CNN
+	1    2800 750 
+	1    0    0    -1  
+$EndComp
+Text Label 2100 6750 0    60   ~ 0
+5V
+Text Label 2650 6500 3    60   ~ 0
+5V
+Text Label 2900 6400 1    60   ~ 0
+GND
+$Comp
+L GND #PWR08
+U 1 1 4FAD2C75
+P 2900 6550
+F 0 "#PWR08" H 2900 6550 30  0001 C CNN
+F 1 "GND" H 2900 6480 30  0001 C CNN
+	1    2900 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 4FAD2C6A
+P 2650 6350
+F 0 "#PWR09" H 2650 6440 20  0001 C CNN
+F 1 "+5V" H 2650 6440 30  0000 C CNN
+	1    2650 6350
+	1    0    0    -1  
+$EndComp
+Text Label 2900 5050 3    60   ~ 0
+GND
+Text Label 2800 5050 3    60   ~ 0
+GND
+Text Label 2100 7000 0    60   ~ 0
+GND
+$Comp
+L JACK_2P J1
+U 1 1 4FAD2A08
+P 1400 6900
+F 0 "J1" H 1050 6700 60  0000 C CNN
+F 1 "JACK_2P" H 1250 7150 60  0000 C CNN
+	1    1400 6900
+	1    0    0    -1  
+$EndComp
+Text Label 7800 2300 0    60   ~ 0
+2
+Text Label 7800 1500 0    60   ~ 0
+3
+Text Label 4100 4300 0    60   ~ 0
+3
+Text Label 4100 4400 0    60   ~ 0
+2
+$Comp
+L 74HC14 U1
+U 2 1 4FAD2841
+P 7150 2300
+F 0 "U1" H 7300 2400 40  0000 C CNN
+F 1 "74HC14" H 7350 2200 40  0000 C CNN
+	2    7150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U1
+U 1 1 4FAD27CB
+P 7150 1500
+F 0 "U1" H 7300 1600 40  0000 C CNN
+F 1 "74HC14" H 7350 1400 40  0000 C CNN
+	1    7150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATMEGA32-P IC1
+U 1 1 4FAD253E
+P 2850 2900
+F 0 "IC1" H 2050 4730 50  0000 L BNN
+F 1 "ATMEGA32-P" H 3050 1000 50  0000 L BNN
+F 2 "DIL40" H 3325 925 50  0001 C CNN
+	1    2850 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

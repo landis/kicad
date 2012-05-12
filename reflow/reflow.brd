@@ -1,0 +1,446 @@
+PCBNEW-BOARD Version 1 date Fri 11 May 2012 08:24:23 AM PDT
+
+# Created by Pcbnew(2011-05-25)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 2
+NoConn 2
+Di 58011 33749 76375 50251
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 2
+Nnets 5
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "11 may 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 80
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "/2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "/3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "GND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "VCC"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+AddNet "/2"
+AddNet "/3"
+AddNet "GND"
+AddNet "VCC"
+$EndNCLASS
+$MODULE DIP-28__300
+Po 60000 42500 2700 15 00200000 4FAD2E47 ~~
+Li DIP-28__300
+Cd 28 pins DIL package, round pads, width 300mil
+Kw DIL
+Sc 4FAD2E47
+AR /4FAD253E
+Op 0 0 0
+T0 -4500 0 600 450 2700 113 N V 21 N "IC1"
+T1 4000 0 600 450 2700 113 N V 21 N "ATMEGA32-P"
+DS -7500 -1000 7500 -1000 150 21
+DS 7500 -1000 7500 1000 150 21
+DS 7500 1000 -7500 1000 150 21
+DS -7500 1000 -7500 -1000 150 21
+DS -7500 -500 -7000 -500 150 21
+DS -7000 -500 -7000 500 150 21
+DS -7000 500 -7500 500 150 21
+$PAD
+Sh "2" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5500 1500
+$EndPAD
+$PAD
+Sh "3" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4500 1500
+$EndPAD
+$PAD
+Sh "4" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3500 1500
+$EndPAD
+$PAD
+Sh "5" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2500 1500
+$EndPAD
+$PAD
+Sh "6" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1500 1500
+$EndPAD
+$PAD
+Sh "7" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -500 1500
+$EndPAD
+$PAD
+Sh "8" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 500 1500
+$EndPAD
+$PAD
+Sh "9" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1500 1500
+$EndPAD
+$PAD
+Sh "10" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2500 1500
+$EndPAD
+$PAD
+Sh "11" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3500 1500
+$EndPAD
+$PAD
+Sh "12" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4500 1500
+$EndPAD
+$PAD
+Sh "13" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5500 1500
+$EndPAD
+$PAD
+Sh "14" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6500 1500
+$EndPAD
+$PAD
+Sh "1" R 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6500 1500
+$EndPAD
+$PAD
+Sh "15" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6500 -1500
+$EndPAD
+$PAD
+Sh "16" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "/2"
+Po 5500 -1500
+$EndPAD
+$PAD
+Sh "17" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 2 "/3"
+Po 4500 -1500
+$EndPAD
+$PAD
+Sh "18" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3500 -1500
+$EndPAD
+$PAD
+Sh "19" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2500 -1500
+$EndPAD
+$PAD
+Sh "20" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1500 -1500
+$EndPAD
+$PAD
+Sh "21" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 500 -1500
+$EndPAD
+$PAD
+Sh "22" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -500 -1500
+$EndPAD
+$PAD
+Sh "23" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1500 -1500
+$EndPAD
+$PAD
+Sh "24" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2500 -1500
+$EndPAD
+$PAD
+Sh "25" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3500 -1500
+$EndPAD
+$PAD
+Sh "26" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4500 -1500
+$EndPAD
+$PAD
+Sh "27" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5500 -1500
+$EndPAD
+$PAD
+Sh "28" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6500 -1500
+$EndPAD
+$SHAPE3D
+Na "dil/dil_28-w300.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  DIP-28__300
+$MODULE DIP-14__300
+Po 74500 38000 2700 15 00200000 4FAD2E48 ~~
+Li DIP-14__300
+Cd 14 pins DIL package, round pads
+Kw DIL
+Sc 4FAD2E48
+AR /4FAD2841
+Op 0 0 0
+T0 -2000 -500 600 450 2700 113 N V 21 N "U1"
+T1 500 500 600 450 2700 113 N V 21 N "74HC14"
+DS -4000 -1000 4000 -1000 150 21
+DS 4000 1000 -4000 1000 150 21
+DS -4000 1000 -4000 -1000 150 21
+DS -4000 -500 -3500 -500 150 21
+DS -3500 -500 -3500 500 150 21
+DS -3500 500 -4000 500 150 21
+DS 4000 -1000 4000 1000 150 21
+$PAD
+Sh "1" R 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3000 1500
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 2 "/3"
+Po -2000 1500
+$EndPAD
+$PAD
+Sh "3" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 1500
+$EndPAD
+$PAD
+Sh "4" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "/2"
+Po 0 1500
+$EndPAD
+$PAD
+Sh "5" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 1500
+$EndPAD
+$PAD
+Sh "6" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2000 1500
+$EndPAD
+$PAD
+Sh "7" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po 3000 1500
+$EndPAD
+$PAD
+Sh "8" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3000 -1500
+$EndPAD
+$PAD
+Sh "9" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2000 -1500
+$EndPAD
+$PAD
+Sh "10" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 -1500
+$EndPAD
+$PAD
+Sh "11" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1500
+$EndPAD
+$PAD
+Sh "12" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 -1500
+$EndPAD
+$PAD
+Sh "13" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2000 -1500
+$EndPAD
+$PAD
+Sh "14" C 550 550 0 0 2700
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 4 "VCC"
+Po -3000 -1500
+$EndPAD
+$SHAPE3D
+Na "dil/dil_14.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  DIP-14__300
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
